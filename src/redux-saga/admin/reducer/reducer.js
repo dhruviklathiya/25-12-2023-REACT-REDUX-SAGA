@@ -10,7 +10,7 @@ const initialState = {
 
 
   const product_reducer = (state = initialState, action) => {
-      console.log(action, "Data from reducer");
+    //   console.log(action, "Data from reducer");
     switch (action.type) {
         case GET_PRODUCT_PROCESS:{
             const data = action.data

@@ -6,14 +6,19 @@
       "password": "1"
     },
     {
-      "id": 1,
-      "username": "USER2",
-      "password": "11"
+      "username": "D ",
+      "password": "1",
+      "id": 2
     },
     {
-      "id": 1,
-      "username": "USER3",
-      "password": "111"
+      "username": "Dhruvik Lathiya",
+      "password": "31232323",
+      "id": 3
+    },
+    {
+      "username": "dhruviklathiya9999@gmail.com",
+      "password": "f",
+      "id": 4
     }
   ],
   "comments": [
