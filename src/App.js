@@ -1,7 +1,7 @@
 import { Provider, useDispatch, useSelector } from "react-redux";
 import { GET_PRODUCT_PROCESS } from "./redux-saga/admin/action/action";
 import { useEffect, useRef } from "react";
-import { GET_VIEWER_PROCESS, POST_VIEWER_PROCESS } from "./redux-saga/viewer/action/viewaction";
+import { DELETE_VIEWER_PROCESS, GET_VIEWER_PROCESS, POST_VIEWER_PROCESS } from "./redux-saga/viewer/action/viewaction";
 
 function App() {
   const username = useRef()
@@ -20,7 +20,11 @@ function App() {
     }
     dispatch({type:POST_VIEWER_PROCESS, payload:input})
   }
-  console.log(abc,"{+++++++++++++++++++}");
+
+  const handle_delete = (val) => {
+    dispatch({type:DELETE_VIEWER_PROCESS, payload:val})
+  }
+
   return (
     <>
     <input name="username" ref={username}/>
@@ -32,6 +36,7 @@ function App() {
           <>
           <h1>Usernamee:{val.username}</h1>
           <h1>password:{val.password}</h1>
+          <button onClick={()=>handle_delete(val)}>DELETE</button>
           </>
         )
       })

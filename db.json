@@ -1,33 +1,17 @@
 {
   "posts": [
     {
-      "id": 1,
-      "username": "USER1",
-      "password": "1"
-    },
-    {
-      "username": "D ",
-      "password": "1",
-      "id": 2
-    },
-    {
-      "username": "Dhruvik Lathiya",
-      "password": "31232323",
-      "id": 3
-    },
-    {
-      "username": "dhruviklathiya9999@gmail.com",
-      "password": "f",
+      "username": "43",
+      "password": "367",
       "id": 4
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "43",
+      "password": "367",
+      "id": 5
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
